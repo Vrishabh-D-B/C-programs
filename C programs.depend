@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1634795194 source:/home/vrishabh/C programs/HelloWorld.c
+	<stdio.h>
+
+1634795540 source:/home/vrishabh/C programs/sum of two nums.c
+	<stdio.h>
+
