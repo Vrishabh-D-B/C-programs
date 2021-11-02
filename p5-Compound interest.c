@@ -12,3 +12,5 @@ void main()
     Ci = P * pow((1 + r/100),t) - P ;
     printf("Compound Interest will be : %.2f \n",Ci);
 }
+// Enter this command in terminal to run
+//gcc p5-Compound\ interest.c -o p5-Compound\ interest -lm 
