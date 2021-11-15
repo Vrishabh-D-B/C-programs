@@ -11,7 +11,7 @@ void main()
         length++;
         i++;
     }
-    //printf("%s \n",str);
+    
     for(i=0;i<length;i++)
     {
         if(str[i] != str[length-i-1])
