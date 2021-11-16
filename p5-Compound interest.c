@@ -14,3 +14,4 @@ void main()
 }
 // Enter this command in terminal to run
 //gcc p5-Compound\ interest.c -o p5-Compound\ interest -lm 
+// ./p5-Compound\ interest
