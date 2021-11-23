@@ -8,7 +8,7 @@ int main() {
     char *factorial  = "1";
     char *i;
     for(i = 1; i <= num; i++) {
-        
+    printf("Hi");  
     }
 
     return 0;
