@@ -2,7 +2,7 @@
 void main()
 {
    int j,n;
-   printf("\tInput the number (Table to be calculated) : ");
+   printf("\tInput the number : ");
    scanf("%d",&n);
    printf("\n");
    for(j=1;j<=10;j++)
