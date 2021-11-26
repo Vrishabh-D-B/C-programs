@@ -5,7 +5,7 @@ int main()
     int i, num, sum = 0;
 
    
-    printf("Enter any number to check perfect number: ");
+    printf("\tEnter any number to check perfect number: ");
     scanf("%d", &num);
 
     
@@ -21,11 +21,11 @@ int main()
     
     if(sum == num && num > 0)
     {
-        printf("%d is PERFECT NUMBER", num);
+        printf("\t%d is PERFECT NUMBER\n", num);
     }
     else
     {
-        printf("%d is NOT PERFECT NUMBER", num);
+        printf("\t%d is NOT PERFECT NUMBER\n", num);
     }
 
     return 0;

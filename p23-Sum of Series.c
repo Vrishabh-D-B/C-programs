@@ -9,9 +9,10 @@ int fact(int x)
 void main()
 {
     int n,f=0,i;
-    printf("Enter any number : ");
+    printf("\tEnter any number : ");
     scanf("%d",&n);
 
+    printf("\t");
     for(i=1;i<=n;i++)
     {
         f=f+fact(i);
@@ -20,6 +21,6 @@ void main()
         else
             printf("%d! +  ",i);
     }   
-    printf("\nSum of series = %d\n",f);
+    printf("\n\tSum of series = %d\n",f);
     
 }

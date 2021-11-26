@@ -5,7 +5,7 @@ void main()
 {
     char str[SIZE];
     int i = 0, count = 0;
-    printf("Enter any string : ");
+    printf("\tEnter any string : ");
     scanf("%s",str);
 
     while(str[i] != '\0')
@@ -14,6 +14,6 @@ void main()
         count++;
     }
 
-    printf("Length of String : %d\n",count);
+    printf("\tLength of String : %d\n",count);
     
 }

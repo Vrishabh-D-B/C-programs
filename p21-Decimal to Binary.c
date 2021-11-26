@@ -4,7 +4,7 @@ void main()
     int i=0, n, j;
     int a[10];
 
-    printf("Enter any number : ");
+    printf("\tEnter any number : ");
     scanf("%d",&n);
 
     while(n>0)
@@ -14,6 +14,7 @@ void main()
         i++;
     }
 
+    printf("\t");
     for(j=i-1;j>=0;j--)
         printf("%d",a[j]);
     printf("\n");

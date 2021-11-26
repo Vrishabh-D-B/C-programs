@@ -3,7 +3,7 @@ void main()
 {
     int n, n_clone, rem, res1, res2;
     
-    printf("Enter any number : ");
+    printf("\tEnter any number : ");
     scanf("%d",&n);
 
     n_clone = n;
@@ -16,8 +16,8 @@ void main()
     }
 
     if(res2==n_clone)
-        printf("\nNumber is Armstrong.\n");
+        printf("\n\tNumber is Armstrong.\n");
     else
-        printf("\nNot Armstrong\n");
+        printf("\n\tNot Armstrong\n");
 
 }

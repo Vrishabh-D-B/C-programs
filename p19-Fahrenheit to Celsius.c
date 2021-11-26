@@ -3,8 +3,8 @@ void main()
 {
     float F, C;
 
-    printf("Enter Temperature in Fahrenheit : ");
+    printf("\tEnter Temperature in Fahrenheit : ");
     scanf("%f",&F);
     C = (F-32)*5/9;
-    printf("\nTemperature in Celsius : %.2f \n",C);
+    printf("\tTemperature in Celsius : %.2f \n",C);
 }
