@@ -1,19 +1,18 @@
-#define SIZE 10
+#define SIZE 20
 #include<stdio.h>
 #include<string.h>
 void main()
 {
     char str[SIZE];
-    int i = 0, count = 0;
+    int i = 0;
     printf("\tEnter any string : ");
-    scanf("%s",str);
+    fgets(str,SIZE,stdin);
 
     while(str[i] != '\0')
     {
         i++;
-        count++;
     }
 
-    printf("\tLength of String : %d\n",count);
+    printf("\tLength of String : %d\n",i-1);
     
 }
