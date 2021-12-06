@@ -2,7 +2,7 @@
 void primeCheck(int n)
 {   
     int i,check = 0;
-    for ( i = 0; i < n; i++)
+    for ( i = 1; i < n; i++)
     {
         if(n % i == 0)
         {
@@ -10,7 +10,7 @@ void primeCheck(int n)
             break;
         }    
     }
-    if(check  == 1)
+    if(check  == 0)
         printf("%d is Prime\n",n);
     else
         printf("%d is NOT Prime\n",n);
