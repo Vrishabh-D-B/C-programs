@@ -11,7 +11,7 @@ int main()
         for(j = 0; j < Column; j++)   
             scanf("%d", &first[i][j]);
 
-        printf("Enter the %d elements of the second matrix : ", Row*Column);
+    printf("Enter the %d elements of the second matrix : ", Row*Column);
     for(i = 0; i < Row; i++)   
         for(j = 0; j < Column; j++)   
             scanf("%d", &second[i][j]);
