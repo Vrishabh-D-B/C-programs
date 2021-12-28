@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void main() {
     int n, i;
     unsigned long long int fact = 1;
     printf("\tEnter an integer: ");
@@ -14,5 +14,4 @@ int main() {
     printf("\tFactorial of %d = %llu \n", n, fact);
     }
 
-    return 0;
 }
