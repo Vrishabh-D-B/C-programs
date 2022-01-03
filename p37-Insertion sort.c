@@ -27,8 +27,10 @@ int main()
 {
 	int arr[] = { 12, 11, 13, 5, 6 };
 	int n = sizeof(arr) / sizeof(arr[0]);
-
+	printf("Given array :\n");
+	printArray(arr,n);
 	insertionSort(arr, n);
+	printf("Sprted array :\n");
 	printArray(arr, n);
 
 	return 0;
